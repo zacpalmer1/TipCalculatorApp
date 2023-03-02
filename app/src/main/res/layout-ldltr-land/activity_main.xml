@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/darkblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="380dp"
+        android:layout_height="270dp"
+        app:cardBackgroundColor="@color/teal"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/EnterBill"
+                style="@style/enter_bill_total"
+                android:text="@string/enter_bill"
+                android:textSize="50sp"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/Total"
+                style="@style/enter_bill_total"
+                android:layout_below="@+id/EnterBill"
+                android:text="@string/total"
+                android:textSize="50sp"
+                android:layout_width="wrap_content" />
+
+            <EditText
+                android:id="@+id/amount"
+                style="@style/input_style"
+                android:layout_below="@+id/EnterBill"
+                android:autofillHints=""
+                tools:ignore="LabelFor" />
+
+            <RadioGroup
+                android:id="@+id/tip_options"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Total"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:checkedButton="@id/option_twenty_percent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/option_fifthteen_percent"
+                    style="@style/radio_style"
+                    android:text="@string/bad_service" />
+
+                <RadioButton
+                    android:id="@+id/option_twenty_percent"
+                    style="@style/radio_style"
+                    android:text="@string/okay_service" />
+
+                <RadioButton
+                    android:id="@+id/option_twentyfive_percent"
+                    style="@style/radio_style"
+                    android:text="@string/good_service" />
+
+                <RadioButton
+                    android:id="@+id/option_thirty_percent"
+                    style="@style/radio_style"
+                    android:text="@string/great_service" />
+
+            </RadioGroup>
+
+            <Switch
+                android:id="@+id/round_tip"
+                style="@style/switch_style"
+                android:layout_below="@+id/tip_options"
+                android:text="@string/round_up"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Button
+                android:id="@+id/calculate_btn"
+                style="@style/calculate_style"
+                android:layout_below="@+id/tip_options"
+                android:text="@string/calculate"
+                app:cornerRadius="20dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="240dp"
+        app:cardBackgroundColor="@color/teal"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tip"
+                style="@style/amount_style_land"
+                android:layout_width="100dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/tip"
+                android:textColor="@color/purple" />
+
+            <TextView
+                android:id="@+id/total"
+                style="@style/amount_style_land"
+                android:layout_width="100dp"
+                android:layout_below="@+id/tip"
+                android:text="@string/total_sum"
+                android:textColor="@color/darkblue" />
+
+            <TextView
+                android:id="@+id/tip_amount"
+                style="@style/amount_style_land"
+                android:layout_width="240dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:textAlignment="textEnd"
+                android:textColor="@color/purple" />
+
+            <TextView
+                android:id="@+id/total_amount"
+                style="@style/amount_style_land"
+                android:layout_width="240dp"
+                android:layout_below="@+id/tip"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="textEnd"
+                android:textColor="@color/darkblue" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    // Main Card Text
+    <string name="enter_bill">Enter Bill</string>
+    <string name="total">Total</string>
+    // Calc Button Text
+    <string name="calculate">Calculate</string>
+    // Radio Buttons
+    <string name="bad_service">15%</string>
+    <string name="okay_service">20%</string>
+    <string name="good_service">25%</string>
+    <string name="great_service">30%</string>
+    // Return Card Text
+    <string name="total_sum">Total</string>
+    <string name="tip">Tip</string>
+    <string name="round_total">Round Total</string>
+    <string name="round_up">Round Tip</string>
+    // Display Results
+    <string name="tip_amount">%s</string>
+    <string name="total_amount">%s</string>
+</resources>
