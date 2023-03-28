@@ -17,6 +17,7 @@ Create an application that implements a tip calculator. There should be one acti
 Run the application on an Android phone or virtual device. It should look similar to the screen shot on the following page.
 
 ## Above and Beyond
+All changes made were approved by the professor beofre submission
 ### Improved UI
 - Implamented a CardView to distiguish functionality of application
 - Used personalized color scheme 
