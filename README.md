@@ -1,7 +1,12 @@
 # Tip Calculator
+## How to use my app
+- This app has not been uplaoded to the Google Play Store
+- Instead you can download my project and run it through Android Studio
+## 
 
 <img width="200" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/225776256-3e4197ee-ff5d-4b27-916f-63fbeab4d5fe.png">
 
+##
 ## Assignment guidlines
 Create an application that implements a tip calculator. There should be one activity/screen as follows:
 1. Provide a TextView prompt and an EditText field for entering the bill amount.
