@@ -20,3 +20,4 @@ Run the application on an Android phone or virtual device. It should look simila
 ### Improved Functionality
 - Created a functional round tip button
 - Allowed updated toggles to automatically update output
+- When app is opened, keyboard and cursor are automatically displayed and placed
