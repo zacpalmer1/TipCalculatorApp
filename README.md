@@ -1,4 +1,6 @@
 # Tip Calculator
+<img width="200" alt="Screenshot 2023-03-16 at 7 32 32 PM" src="https://user-images.githubusercontent.com/75393933/230905815-459bf8c6-f660-40dd-bd3e-f7f8193d431c.png">
+
 ## How to use my app
 - This app has not been uplaoded to the Google Play Store
 - Instead you can download my project and run it through Android Studio
