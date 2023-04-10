@@ -4,7 +4,7 @@
 - Instead you can download my project and run it through Android Studio
 ## 
 
-<img width="200" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/225776256-3e4197ee-ff5d-4b27-916f-63fbeab4d5fe.png">
+<img width="200" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/225776256-3e4197ee-ff5d-4b27-916f-63fbeab4d5fe.png"> <img width="400" alt="Screenshot 2023-03-16 at 7 42 03 PM" src="https://user-images.githubusercontent.com/75393933/230806092-1aad995a-6eb4-469e-a0a3-402133c52d1d.png">
 
 ##
 ## Assignment guidlines
